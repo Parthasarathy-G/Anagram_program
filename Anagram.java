@@ -28,13 +28,11 @@ public class Anagram {
     public static void main(String args[])
     {
         Scanner ps = new Scanner(System.in);
-        // int n = ps.nextInt();
+         int n = ps.nextInt();
         int n = 1;
         for(int i = 0;i<n;i++){
-            String s1 = "aPrtha";
-            String s2 = "Partha";
-            // String s1 = ps.next();
-            // String s2 = ps.next();
+             String s1 = ps.next();
+             String s2 = ps.next();
             char str1[] = (s1).toCharArray();
             char str2[] = (s2).toCharArray();
             if (areAnagram(str1, str2))
