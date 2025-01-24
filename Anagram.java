@@ -33,3 +33,21 @@ public class Anagram {
         }
     }
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+// Input:
+// s1 = "listen"
+// s2 = "silent"
+// Output:
+// True
+// Explanation: Both the strings are anagrams of each other.
+// Therefore, the output is True.
+// Input:
+// s1 = "hello"
+// s2 = "world"
+// Output:
+// False
+// Explanation: Both the strings are not anagrams of each other.
+// Therefore, the output is False.
